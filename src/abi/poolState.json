@@ -1,0 +1,28 @@
+[
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "internalType": "address[][]",
+                "name": "pools",
+                "type": "address[][]"
+            },
+            {
+                "internalType": "uint256",
+                "name": "length",
+                "type": "uint256"
+            }
+        ],
+        "name": "getPoolInfo",
+        "outputs": [
+            {
+                "internalType": "uint256[]",
+                "name": "",
+                "type": "uint256[]"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
