@@ -23,12 +23,12 @@
         "dist"
     ],
     "devDependencies": {
-        "@ethersproject/wallet": "^5.0.7",
+        "@ethersproject/wallet": "^5.1.0",
         "@types/chai": "^4.2.16",
-        "@types/mocha": "^7.0.2",
+        "@types/mocha": "^8.2.2",
         "@types/node": "^14.14.37",
-        "chai": "^4.2.0",
-        "coveralls": "^3.0.9",
+        "chai": "^4.3.4",
+        "coveralls": "^3.1.0",
         "dotenv": "^8.2.0",
         "husky": "^6.0.0",
         "mocha": "^8.3.2",
@@ -42,10 +42,10 @@
         "@ethersproject/address": "^5.1.0",
         "@ethersproject/constants": "^5.1.0",
         "@ethersproject/contracts": "^5.1.0",
-        "@ethersproject/providers": "5.1.0",
+        "@ethersproject/providers": "5.1.2",
         "@ethersproject/solidity": "^5.1.0",
         "@ethersproject/units": "^5.1.0",
-        "bignumber.js": "^9.0.0",
+        "bignumber.js": "^9.0.1",
         "isomorphic-fetch": "^3.0.0"
     }
 }
