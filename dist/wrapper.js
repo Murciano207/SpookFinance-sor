@@ -34,7 +34,7 @@ const bmath_1 = require("./bmath");
 const sor = __importStar(require("./index"));
 class SOR {
     constructor(Provider, GasPrice, MaxPools, ChainId, PoolsUrl) {
-        // avg Balancer swap cost. Can be updated manually if required.
+        // avg Yogi swap cost. Can be updated manually if required.
         this.swapCost = new bignumber_1.BigNumber('100000');
         this.tokenCost = {};
         this.onChainCache = { pools: [] };

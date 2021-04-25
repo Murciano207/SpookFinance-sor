@@ -17,7 +17,7 @@ export class SOR {
     gasPrice: BigNumber;
     maxPools: number;
     chainId: number;
-    // avg Balancer swap cost. Can be updated manually if required.
+    // avg Yogi swap cost. Can be updated manually if required.
     swapCost: BigNumber = new BigNumber('100000');
     tokenCost = {};
     onChainCache: Pools = { pools: [] };

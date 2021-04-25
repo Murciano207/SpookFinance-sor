@@ -228,7 +228,7 @@ export const smartOrderRouterMultiHopEpsOfInterest = (
         }
 
         // If we swept the whole table with pricesOfInterest and didn't get enough amounts
-        // it means that Balancer does not have enough liquidity for this totalSwapAmount.
+        // it means that Yogi does not have enough liquidity for this totalSwapAmount.
         // We return an empty list of swaps to represent this exception case.
         if (highestPoiNotEnough) {
             pathIds = [];
