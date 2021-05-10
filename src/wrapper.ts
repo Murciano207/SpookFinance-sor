@@ -28,7 +28,8 @@ export class SOR {
     pools;
 
     MULTIADDR: { [chainId: number]: string } = {
-        56: '0x0e0042Ffb7D97856aE39d71eeceB4E5853bA41Ac',
+        56:  '0x0e0042Ffb7D97856aE39d71eeceB4E5853bA41Ac',
+        137: '0x0e0042Ffb7D97856aE39d71eeceB4E5853bA41Ac',
     };
 
     constructor(
