@@ -43,6 +43,7 @@ class SOR {
         this.isAllFetched = false;
         this.MULTIADDR = {
             56: '0x0e0042Ffb7D97856aE39d71eeceB4E5853bA41Ac',
+            137: '0x0e0042Ffb7D97856aE39d71eeceB4E5853bA41Ac',
         };
         this.provider = Provider;
         this.gasPrice = GasPrice;
